@@ -211,9 +211,9 @@ def aprv():
                 os.system('clear')
                 print(logo)
                 print('\033[1;32m  Your Key Is Not Copy Send Admin Approved')
-                print('\033[1;32m ******************************************************************************')               
+                print(' **************************************************************')               
                 print(f" Your Key: {k}")
-                print('\032[1;32m ******************************************************************************')                
+                print(' **************************************************************')                
                 input('\033[1;37m[Press Enter]')
                 os.system("xdg-open https://wa.me/+959676429641?text={k}")
                 aprv()
@@ -232,11 +232,11 @@ logo=(""" \033[1;37m
                             
                                   
 \x1b[1;32m **************************************************************
-\x1b[1;36m [\x1b[1;36m💲\x1b[1;36m] \x1b[1;36m Admin   :  WAI LIN KHAING
-\x1b[1;36m [\x1b[1;36m💲\x1b[1;36m] \x1b[1;36m Telegram:  t.me/wailinkhaing9
-\x1b[1;36m [\x1b[1;36m💲\x1b[1;36m] \x1b[1;36m Status  :  Paid
-\x1b[1;36m [\x1b[1;36m💲\x1b[1;36m] \x1b[1;36m Tool    :  ABCD
-\x1b[1;36m [\x1b[1;36m💲\x1b[1;36m] \x1b[1;36m Version : \x1b[1;36m 0.1
+\x1b[1;36m [\x1b[1;36m💲\x1b[1;36m] \x1b[1;32m Admin   :  WAI LIN KHAING
+\x1b[1;36m [\x1b[1;36m💲\x1b[1;36m] \x1b[1;32m Telegram:  t.me/wailinkhaing9
+\x1b[1;36m [\x1b[1;36m💲\x1b[1;36m] \x1b[1;32m Status  :  Paid
+\x1b[1;36m [\x1b[1;36m💲\x1b[1;36m] \x1b[1;32m Tool    :  ABCD
+\x1b[1;36m [\x1b[1;36m💲\x1b[1;36m] \x1b[1;32m Version : \x1b[1;36m 0.1
 \x1b[1;32m **************************************************************
 \x1b[1;35m Please Free User Bypass Fuck LoL 😒
 \x1b[1;32m ************************************************************** """  )
@@ -254,9 +254,9 @@ def main__manu():
         try:
                 x = ("sex")
                 if x == ("sex"):
-                        print('\t\x1b[1;92m        ABCD TOOL MAIN MENU\n\033[1;97m *****************************************************************\n\033[1;97m[1] \033[1;33mFILE CLONING\n\033[1;33m[2] \033[1;92mCONTACT WITH OWNER\n\033[1;33m[3] \033[1;33mAny Help to Join Group\n\033[1;33m[0] \033[1;33mEXIT')
+                        print('\t\x1b[1;92m        ABCD TOOL MAIN MENU\n\033[1;32m *****************************************************************\n\033[1;97m[1] \033[1;32mFILE CLONING\n\033[1;32m[2] \033[1;92mCONTACT WITH OWNER\n\033[1;32m[3] \033[1;33mAny Help to Join Group\n\033[1;32m[0] \033[1;32mEXIT')
                         linex()
-                        xd=input('\033[1;97m[•] \033[1;92mCHOOSE \x1b[1;91m: \x1b[1;96m')
+                        xd=input('\033[1;97m[•] \033[1;32mCHOOSE \x1b[1;91m: \x1b[1;96m')
                         if xd in ['1','01']:
                                 clear()
                                 print('\x1b[1;97mCode Teaches You How To Face Big Problems ! ')
