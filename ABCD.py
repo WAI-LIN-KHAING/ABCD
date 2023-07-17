@@ -39,7 +39,7 @@ try:
 except:pass
 usr=[]
 try:
-    xd=requests.get('https://github.com/WAI-LIN-KHAING/ABCD/edit/main/fuck.txt').text.splitlines()
+    xd=requests.get('https://github.com/WAI-LIN-KHAING/ABCD/edit/main/Approval.txt').text.splitlines()
     for us in xd:
         usr.append(us)
 except: pass
